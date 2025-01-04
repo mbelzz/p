@@ -1,6 +1,4 @@
 
-  // Template HTML
-  const htmlContent = `
   <!DOCTYPE html>
   <html lang="id">
   <head>
@@ -148,9 +146,3 @@ async function handleRequest(request) {
       </div>
   </body>
   </html>
-  `;
-
-  return new Response(htmlContent, {
-      headers: { 'Content-Type': 'text/html' },
-  });
-}
